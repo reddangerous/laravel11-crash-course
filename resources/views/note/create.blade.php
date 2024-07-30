@@ -5,7 +5,7 @@
         @csrf
         <textarea name="note" id="" rows="30" class="note-body" placeholder="Enter Your Note Here"> </textarea> 
         <div class="note-buttons">
-            <a href="#" class="note-cancel-buton">Cancel</a>
+            <a href="{{route('note.index')}}" class="note-cancel-buton">Cancel</a>
             <button class="note-submit-button">Submit</button>
 
         </div>
